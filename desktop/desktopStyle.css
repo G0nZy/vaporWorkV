@@ -1,0 +1,334 @@
+
+        body {
+
+
+            background-color: rgb(218, 224, 231); 
+           
+
+       }
+
+         
+/* Particle Snow Effect */
+#snow {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+pointer-events: none;
+z-index: 1000;
+}
+/* End of Snow Effect */
+
+
+
+
+
+
+         #subNav{
+
+           font-size: 24px;
+
+         }
+
+   
+/* 
+   #subNav1{
+
+       
+       margin-left: 500px;
+        font-size: 18px; 
+       
+
+   }
+
+   #subNav2 {
+
+       margin-left: 85px;
+       font-size: 18px; 
+
+
+   }
+   #subNav3{
+       margin-left: 85px;
+       font-size: 18px; 
+
+   }
+   #subNav4{
+       margin-left: 85px;
+       font-size: 18px; 
+
+   } */
+
+
+
+   
+.containerRando {
+position: relative;
+text-align: center;
+color: white;
+
+}
+
+#topImage{
+
+
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+max-width: 25%;
+max-height: 25%; 
+
+}
+
+
+
+
+
+
+
+#subUnder{
+
+   /* width: 50%; */
+   margin-left: 25%;
+   margin-right: 25%;
+   opacity: 100%;
+   font-size: 25px;
+    font-family: fantasy;
+    font-weight: 900px;
+
+}
+
+#mainSubHead1{
+
+   text-align: center;
+   font-size: 24px;
+   margin-top: 10px;
+   font-size: 25px;
+    font-family: fantasy;
+    font-weight: 900px;
+
+}
+
+#mainSubHead2{
+
+
+   text-align: center;
+   font-size: 13px;
+   font-size: 25px;
+    font-family: fantasy;
+    font-weight: 900px;
+
+}
+
+
+
+/* Contact Me Button */
+.button1 {
+ padding:1em;
+ text-align: center;
+ display:inline-block;
+ text-decoration: none !important;
+ margin:0 auto;
+ border-style: solid;
+ border-top-left-radius: 35px;
+ border-top-right-radius: 35px;
+ border-bottom-left-radius: 35px;
+ border-bottom-right-radius: 35px;
+
+ -webkit-transition: all 0.2s ease-in-out;
+ -moz-transition: all 0.2s ease-in-out;
+ -ms-transition: all 0.2s ease-in-out;
+ -o-transition: all 0.2s ease-in-out;
+ transition: all 0.2s ease-in-out;
+ color: steelblue;
+}
+/* End of Contact Me Button */
+
+.container1{
+width: 100%;
+text-align: center;
+margin-bottom: 50px;
+}
+
+
+.containerMan{
+
+
+display: grid;
+grid-template-columns: auto auto auto auto;
+
+
+}
+#picText1 {
+
+text-align: center;
+
+
+font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+
+
+}
+#picText2 {
+
+text-align: center;
+font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+
+}
+#picText3 {
+
+text-align: center;
+font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+margin-bottom: 10px;
+}
+#picText4 {
+
+text-align: center;
+font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+
+}
+
+
+
+#pictureBox1 {
+/* 
+width: 60%;
+height: 100%; */
+width: 50%;
+border-style: solid;
+border-width: 3px;
+margin-left: 35px;
+margin-bottom: 30px;
+cursor: pointer;
+border-radius: 25px;
+
+}
+
+
+#pictureBox1:hover {
+   transform: scale(1.2);
+   margin-top: 35px;
+   /* margin-bottom: 30px; */
+  } 
+
+
+#pictureBox2 {
+
+width: 60%;
+height: 100%;
+border-style: solid;
+border-width: 3px;
+margin-left: 35px;
+margin-bottom: 30px;
+cursor: pointer;
+border-radius: 25px;
+
+
+}
+
+
+#pictureBox3 {
+
+ width: 60%;
+ height: 100%;
+ border-style: solid;
+ border-width: 3px;
+ margin-left: 35px;
+ margin-bottom: 30px;
+ cursor: pointer;
+ border-radius: 25px;
+
+
+}
+
+#pictureBox4 {
+
+ width: 60%;
+ height: 100%;
+ border-style: solid;
+ border-width: 3px;
+ margin-left: 35px;
+ margin-bottom: 30px;
+ cursor: pointer;
+ border-radius: 25px;
+}
+
+  
+  
+  #pictureBox2:hover {
+  
+  
+     transform: scale(1.2);
+     margin-bottom: 50px;
+     /* margin-top: 30px; */
+     /* padding-bottom: 50px; */
+  
+  
+  } 
+
+#pictureBox3:hover {
+
+
+ transform: scale(1.1);
+ 
+  margin-top: 10px;
+ 
+
+}
+
+#pictureBox4:hover {
+
+ transform: scale(1.2);
+ /* margin-top: 35px; */
+ margin-bottom: 50px;
+
+}
+
+
+#developerLogContainer{
+
+
+   margin-top: 150px;
+   border-style:double;
+   margin-left: 10%;
+   margin-right: 10%;
+   border-radius: 20px;
+   border-width: 15px;
+
+
+}
+
+#developerLogTitle{
+
+   
+   margin-bottom: 5%;
+   text-align: center;
+   font-size: 25px;
+    font-family: fantasy;
+    font-weight: 900px;
+  
+
+}
+
+#developerTextTitle{
+    
+   text-decoration: underline;
+   color: blue;
+   cursor: pointer;
+   /* text-align: center; */
+   margin-bottom: 10px;
+   display: block;
+   text-align: center;
+   font-size: 25px;
+    font-family: fantasy;
+    font-weight: 900px;
+   
+   
+
+}
+
+#whateverMan{
+
+
+   margin-top: 5px;
+
+}

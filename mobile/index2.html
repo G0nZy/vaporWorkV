@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>g0nzy</title>
+     <link rel="stylesheet" href="./style.css">
+     <link
+     rel="stylesheet"
+     href="https://unpkg.com/swiper/swiper-bundle.min.css"
+   />
+</head>
+<body>
+    
+
+
+<!-- Particle Effect -->
+            <div id="snow"></div>
+<!-- End of Particle Effect -->
+
+            
+<!-- TOP IMAGE -->
+            <div class="containerRando">
+                <img id='topImage'src="./img/vaporMountain.png" alt="Snow" style="width:100%;" class="fade-in">
+                
+                <div class="botoRight" >Soon in 3D !</div>
+                
+              </div> 
+<!-- END OF TOP IMAGE -->
+
+
+<!-- SCROLLING TEXT -->
+
+<style>
+  .scroll-left {
+   height: 50px;	
+   overflow: hidden;
+   position: relative;
+   background: rgb(44, 44, 44);
+   color: rgb(65, 184, 28);
+   
+  }
+  .scroll-left p {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   line-height: 50px;
+   text-align: center;
+   /* Starting position */
+   -moz-transform:translateX(50%);
+   -webkit-transform:translateX(50%);	
+   transform:translateX(50%);
+   /* Apply animation to this element */	
+   -moz-animation: scroll-left 15s linear infinite;
+   -webkit-animation: scroll-left 15s linear infinite;
+   animation: scroll-left 15s linear infinite;
+  }
+  /* Move it (define the animation) */
+  @-moz-keyframes scroll-left {
+   0%   { -moz-transform: translateX(100%); }
+   100% { -moz-transform: translateX(-100%); }
+  }
+  @-webkit-keyframes scroll-left {
+   0%   { -webkit-transform: translateX(100%); }
+   100% { -webkit-transform: translateX(-100%); }
+  }
+  @keyframes scroll-left {
+   0%   { 
+   -moz-transform: translateX(100%); /* Browser bug fix */
+   -webkit-transform: translateX(100%); /* Browser bug fix */
+   transform: translateX(100%); 		
+   }
+   100% { 
+   -moz-transform: translateX(-100%); /* Browser bug fix */
+   -webkit-transform: translateX(-100%); /* Browser bug fix */
+   transform: translateX(-100%); 
+   }
+  }
+  </style>
+  
+  <div class="scroll-left fade-in">
+  <p >Check back often for updates!!! </p>
+  </div>
+  <!-- SCROLLING TEXT -->
+
+
+
+
+<!-- HEADER -->
+  <p id="headerText" class="fade-in">Web Spaces // Mixed Reality Experiences</p>		
+  	<p id="underHeaderText" class="fade-in">Web3 & Metaverse Development</p>		
+  	</div>
+<style>
+      #headerText {
+      text-align: center;
+      font-family: Consolas;
+      margin-top: 15px;
+        font-size: 15px;
+}
+
+        #underHeaderText {
+        text-align: center;
+        font-family: Consolas;
+        font-size: 11px;
+}
+</style>
+<!-- END OF HEADER -->
+
+
+
+
+
+<!-- LINKTREE BUTTON -->
+<div class="buttonContainer">
+  <a href="./linkTreeGO.html" class="button1 fade-in">Get In Touch</a>
+</div>
+<style>
+  .buttonContainer{
+width: 100%;
+text-align: center;
+/* margin-top:120%; */
+}
+
+.button1 {
+ padding:1em;
+ text-align: center;
+ display:inline-block;
+ text-decoration: none !important;
+ margin:0 auto;
+ border-style: solid;
+ border-top-left-radius: 35px;
+ border-top-right-radius: 35px;
+ border-bottom-left-radius: 35px;
+ border-bottom-right-radius: 35px;
+
+ -webkit-transition: all 0.2s ease-in-out;
+ -moz-transition: all 0.2s ease-in-out;
+ -ms-transition: all 0.2s ease-in-out;
+ -o-transition: all 0.2s ease-in-out;
+ transition: all 0.2s ease-in-out;
+ color: steelblue;
+ margin-top: 5%;
+ /* margin-bottom: 30%; */
+ /* padding-bottom: 20%; */
+ padding-left:30%;
+ padding-right:30%;
+}
+</style>
+<!-- END OF LINKTREE BUTTON -->
+
+
+
+
+
+
+
+
+
+<!-- TRIAL CODE -->
+
+<style>
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    /* color: #000;
+    margin: 0;
+    padding: 0; */
+  }
+
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+</style>
+
+ <!-- Swiper -->
+ <div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <a href="./aboutMeGO.html"> <img id='photoTag1' class="fade-in"src="../img/mobileImg/hero.png" /> </a>
+      <p id="portalTag" class="fade-in">Who</p>
+    </div>
+    <div class="swiper-slide">
+     <a href=""> <img class="fade-in" src="../img/mobileImg/haloBoy.png" /> </a>
+      <p id="portalTag" class="fade-in">Portfolio</p>
+    </div>
+    <div class="swiper-slide">
+      <a href="../desktop/nftShowcase.html"> <img class="fade-in"src="../img/mobileImg/vapor.png" /> </a>
+      <p id="portalTag"class="fade-in">NFT Showcase</p>
+    </div>
+    <div class="swiper-slide">
+      <a href=""> <img class="fade-in"src="../img/mobileImg/quest.png" /> </a>
+      <p id="portalTag"class="fade-in">XR Experiences</p>
+    </div>
+  </div>
+  
+</div>
+<style>
+  #portalTag{
+    text-align: center;
+    font-size: 23px;
+    color: black;
+    
+  }
+</style>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    loop: true,
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+
+<script>
+
+// document.getElementsByClassName("clickOn1").onclick = function(){photoClick()};
+// function photoClick(){
+//     window.location.href = "./aboutMeGO.html";
+// };
+
+</script>
+
+
+
+
+
+
+
+<!-- END OF TRIAL CODE -->
+
+
+
+
+
+<!-- DEVELOPER NOTES -->
+<!-- <div id="developerLogContainer">
+  <h1 id="developerLogTitle">Dev Log</h1>
+  
+  
+
+  
+
+  <p id="developerTextTitle">Guide To The Metaverse</p>
+  <p id="developerTextTitle">Valve & Peloton</p>
+  <p id="developerTextTitle">more ...</p>
+   <p id="developerTextTitle">Are NFT's worth?</p>
+
+</div> -->
+
+
+
+<div id="developerLogContainer">
+  <h1 id="developerLogTitle">Developer Logs</h1>
+  <a href="../journal/entry1.html" id="developerTextTitle">Valve & The Metaverse</a>
+  <a id="developerTextTitle">The Problem w/ Virtual Reality</a>
+  <a href="../journal/devLogGO.html" id="developerTextTitle">more ...</a>
+</div>
+<!-- END OF DEVELOPER NOTES -->
+<!-- DEVELOPER NOTE STYLES -->
+<style>
+
+#developerLogContainer{   
+margin-top: 5%;
+border-style:double;
+margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 50px;
+padding-bottom:20px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+#developerLogTitle{
+text-align: center;
+
+   margin-bottom: 5%;
+  
+}
+#developerTextTitle{
+
+
+margin-top: 5%; 
+text-decoration: underline;
+color: blue;
+  
+   text-align: center;
+   
+   display: block;
+   
+} 
+
+</style>
+<!-- <script>
+document.getElementById("developerTextTitle").onclick = function(){myFunction9()};
+function myFunction9(){
+window.location.href = "./devLogGO.html";
+};
+</script> -->
+<!--  END OF DEVELOPER NOTE STYLES -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+
+        
+// Snow Effect
+document.addEventListener('DOMContentLoaded', function(){
+    var script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+    script.onload = function(){
+        particlesJS("snow", {
+            "particles": {
+                "number": {
+                    "value": 300,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#afeeee"
+                },
+                "opacity": {
+                    "value": 0.3,
+                    "random": true,
+                    "anim": {
+                        "enable": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 1,
+                    "direction": "up",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": true,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 300,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": false
+                    },
+                    "onclick": {
+                        "enable": false
+                    },
+                    "resize": false
+                }
+            },
+            "retina_detect": true
+        });
+    }
+    document.head.append(script);
+});
+// End of Snow Effect
+
+      </script>
+
+
+<!-- U+1F310 Globe U+1F30C Galaxy U+1F300 Cyclone-->
+
+<p class="footTagLine" id="tagRoom"><span>🌀</span>Inspired by the Humans & Culture of </p>
+<p class="footTagLine" id="tagRoom1">Seattle, Washington<span>🌀</span></p>
+<style>
+  .footTagLine{
+
+
+     text-align: center; 
+
+
+  }
+
+  #tagRoom{
+
+    margin-top: 700px;
+
+
+  }
+
+  #tagRoom1{
+
+    margin-bottom: 45px;
+
+  }
+</style>
+
+<!-- With Love From Seattle  WLFS -->
+
+
+
+
+</body>
+</html>
+
+<style>
+        
+
+
+
+        #transparentHR {
+
+
+
+                    opacity: 0;
+
+        }
+
+        
+        /* my personal code */
+        .cardTitle{
+
+
+                    font-size: 20px;
+
+        }
+        
+        /* end of that */
+
+        </style>
+        
+<script src="./script.js"></script>
+
+
+<script>
+  
+  if (screen.width >= 767) {
+  document.location = "../index.html";
+}
+</script>
+
+
+<style>
+  .fade-in {
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+}
+</style>
