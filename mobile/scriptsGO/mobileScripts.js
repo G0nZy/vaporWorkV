@@ -93,7 +93,7 @@ var swiper = new Swiper(".mySwiper", {
 
 // RETURN TO DESKTOP 
 if (screen.width >= 767) {
-    document.location = "../index.html";
+    document.location = "../../index.html";
   }
 // END OF RETURN TO DESKTOP
 
