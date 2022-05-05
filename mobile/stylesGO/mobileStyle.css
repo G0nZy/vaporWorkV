@@ -4,7 +4,6 @@ body {
 
     background-color: rgb(218, 224, 231); 
 
-
 } 
 
 
@@ -31,6 +30,11 @@ body {
   }
 /* END OF FADE EFFECT */
 
+
+
+/* START OF INDEX2.HTML */
+/* TOP IMAGE */
+
 .containerRando {
         position: relative;
         text-align: center;
@@ -41,260 +45,11 @@ body {
 
 #topImage{
 
-
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
 
 }
 
-
-
-
-
-
-
-.defaultHR1 {
-
-
-margin-bottom: 0px;
-
-
-}
-
-
-
-
-.cyberLinks{
-
-
-border: solid;
-margin-top: 15px;
-/* margin-bottom: 10px; */
-text-align: center;
-padding-top: 10px;
-padding-bottom: 5px;
-margin-left: 30px;
-margin-right: 30px;
-border-top-left-radius: 25px;
-border-top-right-radius: 25px;
-border-bottom-left-radius: 25px;
-border-bottom-right-radius: 25px;
-margin-bottom: 50px;
-
-
-
-
-}
-
-
-
-#cyberText {
-
-
-color:#533557;
-margin-bottom: 30px;
-padding-bottom: 30px;
-}
-
-
-
-/* Middle Portal Cards */
-
-
-* {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-border-top-left-radius: 50px;
-border-bottom-left-radius: 50px;
-border-bottom-right-radius: 50px;
-border-top-right-radius: 50px;
-}
-
-html {
-font-family: system-ui;
-/* background: #3d76d9; */
-}
-
-.visuallyhidden {
-position: absolute;
-z-index: -1;
-right: 0;
-opacity: 0;
-
-}
-/* 
-h1 {
-color: white;
-text-align: center;
-margin-top: 1em;
-} */
-
-.container {
-overflow: hidden;
-padding: 20px;
-margin-top: 2em;
-/* background: rgba(0,0,0,.1) */
-}
-
-.card-carousel {
---card-width: 80%;
---card-max-width: 280px;
---card-height: 350px;
---carousel-min-width: 600px;
-z-index: 1;
-position: relative;
-margin: 0 auto;
-width: 100%;
-height: var(--card-height);
-min-width: var(--carousel-min-width);
-transition: filter .3s ease;
-
-}
-
-@media screen and (max-width: 640px) {
-.card-carousel {
-margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
-}
-}
-
-.card-carousel.smooth-return {
-transition: all .2s ease;
-}
-
-.card-carousel .card {
-background: #99a8c5;
-width: var(--card-width);
-max-width: var(--card-max-width);
-text-align: center;
-padding: 1em;
-min-width: 250px;
-height: var(--card-height);
-position: absolute;
-margin: 0 auto;
-/* color: rgba(0,0,0,.5); */
-color: black;
-transition: inherit;
--webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
--moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
-border-radius: 1em;
-filter: brightness(.9);
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-
-}
-
-.card.highlight {
-filter: brightness(1)
-}
-
-
-.card:nth-of-type(1) .image-container {
-background-image: url("../img/halo\ boy\ IV.png")
-}
-
-.card:nth-of-type(2) .image-container {
-background-image: url("../img/adventure\ quest1.png")
-}
-
-.card:nth-of-type(3) .image-container {
-background-image: url("https://en.wiktionary.org/wiki/question_mark#/media/File:Question_mark_(black).svg")
-}
-.card:nth-of-type(4) .image-container {
-background-image: url("https://en.wiktionary.org/wiki/question_mark#/media/File:Question_mark_(black).svg")
-}
-.card:nth-of-type(5) .image-container {
-background-image: url("https://en.wiktionary.org/wiki/question_mark#/media/File:Question_mark_(black).svg")
-}
-
-
-
-.image-container {
-width: 8em;
-height: 8em;
-position: relative;
-background-size: cover;
-margin-bottom: 2em;
-border-radius: 100%;
-padding: 1em;
--webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
--moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
-
-}
-
-.image-container::after {
-content: "";
-display: block;
-width: 120%;
-height: 120%;
-/* border: solid 3px rgba(0,0,0,.1); */
-border: solid 3px rgba(184, 147, 192, 0.808);
-border-radius: 100%;
-position: absolute;
-top: calc(-10% - 3px);
-left: calc(-10% - 3px);
-}
-/* 
-h2 {
-padding: 1em;
-margin-top: 1em;
-background: rgba(0,0,0,.3);
-text-align: center;
-color: white;
-border-radius: .2em;
-display: inline-block;
-transform: translateX(calc((100vw - 100%) / 2))
-} */
-
-h2 a {
-color: #f5b916;
-
-}
-/* End of Portal Cards */
-
-
-
-
-
-
-/* Slider Menu */
-div.scrollmenu {
-background-color: #333;
-opacity: 90%;
-overflow: auto;
-white-space: nowrap;
-position: fixed; 
-bottom: 0;
-width: 100%;
-}
-
-div.scrollmenu a {
-display: inline-block;
-color: white;
-text-align: center;
-padding: 14px;
-text-decoration: none;
-}
-
-div.scrollmenu a:hover {
-background-color: #777;
-}
-/* End of Slider Menu */
-
-
-
-
-
-.containerRando {
-position: relative;
-text-align: center;
-color: white;
-
-}
 .botoRight {
 position: absolute;
 bottom: 8px;
@@ -307,10 +62,82 @@ margin-bottom: 20px;
 font-family: 'Lexend', sans-serif;
 } 
 
+/* END OF TOP IMAGE */
 
-#ignoreMe{
 
 
-opacity: 0;
+/* SCROLLING TEXT */
+  .scroll-left {
+   height: 50px;	
+   overflow: hidden;
+   position: relative;
+   background: rgb(44, 44, 44);
+   color: rgb(65, 184, 28);
+   
+  }
+  .scroll-left p {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   line-height: 50px;
+   text-align: center;
+   /* Starting position */
+   -moz-transform:translateX(50%);
+   -webkit-transform:translateX(50%);	
+   transform:translateX(50%);
+   /* Apply animation to this element */	
+   -moz-animation: scroll-left 15s linear infinite;
+   -webkit-animation: scroll-left 15s linear infinite;
+   animation: scroll-left 15s linear infinite;
+   font-family: 'Lexend', sans-serif;
+  }
+  /* Move it (define the animation) */
+  @-moz-keyframes scroll-left {
+   0%   { -moz-transform: translateX(100%); }
+   100% { -moz-transform: translateX(-100%); }
+  }
+  @-webkit-keyframes scroll-left {
+   0%   { -webkit-transform: translateX(100%); }
+   100% { -webkit-transform: translateX(-100%); }
+  }
+  @keyframes scroll-left {
+   0%   { 
+   -moz-transform: translateX(100%); /* Browser bug fix */
+   -webkit-transform: translateX(100%); /* Browser bug fix */
+   transform: translateX(100%); 		
+   }
+   100% { 
+   -moz-transform: translateX(-100%); /* Browser bug fix */
+   -webkit-transform: translateX(-100%); /* Browser bug fix */
+   transform: translateX(-100%); 
+   }
+  }
+  
+  /* END OF SCROLLING TEXT */
 
+  /* HEADER*/
+  #headerText {
+    text-align: center;
+    /* font-family: Consolas; */
+    margin-top: 15px;
+      font-size: 15px;
+      /* font-family: fantasy; */
+      font-weight: 900;
+      /* font-family: 'Trebuchet MS', sans-serif; */
+      /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+      font-family: 'Lexend', sans-serif;
 }
+
+      #underHeaderText {
+      text-align: center;
+      /* font-family: Consolas; */
+      /* font-family: fantasy; */
+      font-size: 11px;
+      font-weight: 900;
+      /* font-family: 'Trebuchet MS', sans-serif; */
+      /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+      font-family: 'Lexend', sans-serif;
+      margin-bottom: 25px;
+}
+  /* END OF HEADER */
