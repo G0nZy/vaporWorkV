@@ -7,22 +7,37 @@ body {
 
 } 
 
-#mainImage{
 
+/* Particle Snow Effect */
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+    
+    }
+/* End of Particle Snow Effect */
 
-height: auto;
-max-width: 100%;
-display: block;
-margin: auto; 
-border-bottom-left-radius: 7%;
-border-bottom-right-radius: 7%;
-/* border-top-left-radius: 3%;
-border-top-right-radius: 3%; */
-/* width: 100%; */
-/* margin: auto; */
-/* height: auto; */
+/* FADE EFFECT */
+.fade-in {
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+  }
+/* END OF FADE EFFECT */
 
-}
+.containerRando {
+        position: relative;
+        text-align: center;
+        color: white;
+        
+        }
+    
 
 #topImage{
 
@@ -242,20 +257,6 @@ color: #f5b916;
 /* End of Portal Cards */
 
 
-
-
-/* Particle Snow Effect */
-#snow {
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-pointer-events: none;
-z-index: 1000;
-
-}
-/* End of Snow Effect */
 
 
 
