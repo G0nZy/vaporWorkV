@@ -1,8 +1,12 @@
-
+html{
+    position: relative;
+    height: 100%;
+}
 
 body {
 
     background-color: rgb(218, 224, 231); 
+    font-size: 14px;
 
 } 
 
@@ -66,6 +70,9 @@ font-family: 'Lexend', sans-serif;
 
 
 
+
+
+
 /* SCROLLING TEXT */
   .scroll-left {
    height: 50px;	
@@ -116,6 +123,9 @@ font-family: 'Lexend', sans-serif;
   
   /* END OF SCROLLING TEXT */
 
+
+
+
   /* HEADER*/
   #headerText {
     text-align: center;
@@ -141,3 +151,89 @@ font-family: 'Lexend', sans-serif;
       margin-bottom: 25px;
 }
   /* END OF HEADER */
+
+
+
+
+
+
+  /* LINKTREE BUTTON*/
+  #holdingButton{
+
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+
+}
+
+.goBTN {
+
+color:inherit;
+/* font-family:inherit;
+font-size: inherit; */
+background: rgb(249,96,116);
+/* background:rgb(0, 58, 105); */
+color: black;
+padding-left: 15%;
+padding-right: 15%;
+padding-top: 3%;
+padding-bottom: 3%;
+border: 2px solid black;
+margin-right: 2.6rem;
+box-shadow: 0 0 0 black;
+transition: all 0.2s;
+display: block;
+margin: auto;
+text-align: center;
+font-family: 'Lexend', sans-serif;
+border-radius: 15px;
+opacity: 75%;
+} 
+
+.goBTN:hover {
+box-shadow: 0.4rem 0.4rem 0 rgb(169, 99, 179);
+transform: translate(-0.4rem, -0.4rem);
+opacity: 90%;
+}
+  /* END OF LINKTREE BUTTON */
+
+
+
+  /* SWIPER */
+
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: solid 2px;
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  #portalTag{
+    text-align: center;
+    font-size: 23px;
+    color: black;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+    margin-top: 2%;
+  }
+
+  /* END OF SWIPER */
+
+
+  /* TEXT ADVENTURE */
+
+/* END OF TEXT ADVENTURE */
