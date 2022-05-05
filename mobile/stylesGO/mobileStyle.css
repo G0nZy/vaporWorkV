@@ -32,6 +32,53 @@ body {
     -o-animation: fadeIn ease 4s;
     -ms-animation: fadeIn ease 4s;
   }
+
+
+
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+  }
 /* END OF FADE EFFECT */
 
 
@@ -235,5 +282,98 @@ opacity: 90%;
 
 
   /* TEXT ADVENTURE */
+  .textAdventureBox{
+
+    margin-top: 10%;
+    margin-bottom: 25%;
+
+  }
+
+
+  .textAdventurePreview{
+
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: block;
+    margin: auto;
+    width: 90%;
+
+  }
+
+  .textAdventurePreview:hover{
+    cursor: pointer;
+  }
 
 /* END OF TEXT ADVENTURE */
+
+/* DEVELOPER NOTES */
+
+#developerLogContainer{   
+    margin-top: 5%;
+    border-style:double;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 25px;
+    padding-bottom:20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    }
+    #developerLogTitle{
+    text-align: center;
+    
+       margin-bottom: 5%;
+       /* font-family: fantasy; */
+       /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+        font-weight: 500;
+        font-family: 'Lexend', sans-serif;
+      
+    }
+    #developerTextTitle{
+    
+    
+    margin-top: 5%; 
+    text-decoration: underline;
+    color: blue;
+      
+       text-align: center;
+       
+       display: block;
+       /* font-family: fantasy; */
+       /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+        font-weight: 500;
+        font-family: 'Lexend', sans-serif;
+    } 
+    
+/* END OF DEVELOPER NOTES */
+
+/* FOOTER */
+.footTagLine{
+
+
+    text-align: center; 
+    font-family: 'Lexend', sans-serif;
+
+
+ }
+
+ #tagRoom{
+
+   margin-top: 150px;
+
+
+ }
+
+ #tagRoom1{
+
+   margin-bottom: 50px;
+
+ }
+
+ #spacer{
+
+   opacity: 0;
+
+ }
+/* END OF FOOTER */

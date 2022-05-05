@@ -1,3 +1,5 @@
+// INDEX2.HTML
+
 // Snow Effect
 document.addEventListener('DOMContentLoaded', function(){
     var script = document.createElement('script');
@@ -87,3 +89,17 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 // END OF SWIPER EFFECT
+
+
+// RETURN TO DESKTOP 
+if (screen.width >= 767) {
+    document.location = "../index.html";
+  }
+// END OF RETURN TO DESKTOP
+
+
+
+
+
+
+//   END INDEX2.HTML
