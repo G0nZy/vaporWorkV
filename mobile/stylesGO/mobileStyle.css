@@ -268,8 +268,8 @@ opacity: 90%;
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width:75%;
-    height: 75%;
+    width:300px;
+    height: 300px;
     
     
   }
@@ -281,12 +281,13 @@ opacity: 90%;
     color: black;
     font-weight: 500;
     font-family: 'Lexend', sans-serif;
-    margin-top: 2%;
-  }
-
-  img{
+    margin-top: 2%}
+/* 
+  .swiper-slide img{
     border-radius: 25px;
-  }
+    
+    width: 75%;
+  } */
 
 /* EXTRA BIT OF CODE  */
 
