@@ -97,9 +97,13 @@ if (screen.width >= 767) {
   }
 // END OF RETURN TO DESKTOP
 
-
-
-
-
-
 //   END INDEX2.HTML
+
+// JAVASCRIPT THAT CHANGES EMAIL BUTTON TO SHOW MY EMAIL 
+
+  const emailBtn = document.getElementById('tLink5');
+  emailBtn.addEventListener('click', function handleClick(){
+    emailBtn.textContent = 'therealg0nzy@protonmail.ch';
+  });
+
+//  END OF JAVASCRIPT THAT CHANGES EMAIL BUTTON TO SHOW MY EMAIL 

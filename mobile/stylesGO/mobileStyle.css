@@ -580,6 +580,24 @@ opacity: 90%;
       transform: translate(0, 0);
     }
     
+    #tLink6{
+        margin-bottom: 10%;
+    }
+    #tLink6:hover {
+     transform: scale(1.2);
+     /* margin-bottom: 30px; */
+     cursor: pointer;
+     background: linear-gradient(165deg, red 0%, purple 55%, yellow 100%);
+     color: white;
+     opacity: 100%;
+     box-shadow: 0.7rem 0.7rem 0 black;
+      transform: translate(-0.7rem, -0.7rem);
+    } 
+    #tLink6:active {
+      box-shadow: 0 0 0 black;
+      transform: translate(0, 0);
+    }
+    
     
 
 
