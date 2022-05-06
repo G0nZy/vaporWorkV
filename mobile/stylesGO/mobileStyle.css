@@ -135,6 +135,8 @@ font-family: 'Lexend', sans-serif;
    position: relative;
    background: rgb(44, 44, 44);
    color: rgb(65, 184, 28);
+   margin-top: 1%;
+   border-radius: 10%;
    
   }
   .scroll-left p {
@@ -319,7 +321,7 @@ opacity: 90%;
     display: block;
     margin: auto;
     width: 90%;
-    border-radius: 50px; 
+    border-radius: 15px; 
 
   }
 
@@ -436,12 +438,6 @@ opacity: 90%;
 
 
 /* LINK TREE */
-
-
-/* NEW STYLE */
-
-
-
 #holdingButton{
 
     margin-top: 25px;
@@ -597,9 +593,4 @@ opacity: 90%;
       box-shadow: 0 0 0 black;
       transform: translate(0, 0);
     }
-    
-    
-
-
-
 /* END OF LINKTREE */

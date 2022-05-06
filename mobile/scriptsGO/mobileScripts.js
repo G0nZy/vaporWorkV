@@ -82,7 +82,7 @@ var swiper = new Swiper(".mySwiper", {
     stretch: 0,
     depth: 100,
     modifier: 1,
-    slideShadows: true,
+    slideShadows: false,
   },
   pagination: {
     el: ".swiper-pagination",
@@ -101,9 +101,9 @@ if (screen.width >= 767) {
 
 // JAVASCRIPT THAT CHANGES EMAIL BUTTON TO SHOW MY EMAIL 
 
-  const emailBtn = document.getElementById('tLink5');
-  emailBtn.addEventListener('click', function handleClick(){
-    emailBtn.textContent = 'therealg0nzy@protonmail.ch';
-  });
+//   const emailBtn = document.getElementById('tLink5');
+//   emailBtn.addEventListener('click', function handleClick(){
+//     emailBtn.textContent = 'therealg0nzy@protonmail.ch';
+//   });
 
 //  END OF JAVASCRIPT THAT CHANGES EMAIL BUTTON TO SHOW MY EMAIL 
