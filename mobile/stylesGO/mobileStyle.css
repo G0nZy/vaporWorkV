@@ -258,7 +258,7 @@ opacity: 90%;
   /* SWIPER */
 
 
-  * {
+   /* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -266,7 +266,7 @@ opacity: 90%;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
-    }
+    }  */
     
   /* .swiper {
     width: 100%;
@@ -294,7 +294,7 @@ opacity: 90%;
     font-family: 'Lexend', sans-serif;
     margin-top: 2%}
 
-   .swiper-slide img {
+   .swiper-slide  {
     display: block;
     width: 100%;
     
@@ -402,3 +402,37 @@ opacity: 90%;
 /* END OF FOOTER */
 
 /* END OF INDEX2.HTML */
+
+
+
+/* ABOUTMEGO.HTML */
+
+#subNav{
+
+    font-size: 24px;
+    font-family: 'Lexend', sans-serif;
+ 
+    }
+ 
+
+     #aboutMainImg{
+
+        display: block;
+        margin: auto;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        max-width: 100%;
+        /* max-height: 50%;  */
+
+    }
+
+
+
+
+/* END OF ABOUT ME GO */
+
+
+
+
+
+/*  */
