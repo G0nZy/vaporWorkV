@@ -299,8 +299,8 @@ opacity: 90%;
     width: 100%;
     
   }
-
   /* END OF SWIPER */
+
 
 
   /* TEXT ADVENTURE */
@@ -319,7 +319,7 @@ opacity: 90%;
     display: block;
     margin: auto;
     width: 90%;
-    /* border-radius: 50px; */
+    border-radius: 50px; 
 
   }
 
@@ -400,3 +400,5 @@ opacity: 90%;
 
  }
 /* END OF FOOTER */
+
+/* END OF INDEX2.HTML */
