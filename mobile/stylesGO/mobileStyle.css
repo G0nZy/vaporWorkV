@@ -724,5 +724,13 @@ font-family: 'Lexend', sans-serif;
 /* END OF LINKTREE */
 
 /* RESUME */
+#resumePicStyle{
+    width: 88%;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+   
+}
+
 
 /* END OF RESUME */
