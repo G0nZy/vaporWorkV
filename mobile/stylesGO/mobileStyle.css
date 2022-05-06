@@ -282,18 +282,12 @@ opacity: 90%;
     font-weight: 500;
     font-family: 'Lexend', sans-serif;
     margin-top: 2%}
-/* 
-  .swiper-slide img{
+
+   .swiper-slide img {
+    display: block;
+    width: 100%;
     border-radius: 25px;
-    
-    width: 75%;
-  } */
-
-/* EXTRA BIT OF CODE  */
-
-  /* Middle Portal Cards */
-
-
+  }
 
   /* END OF SWIPER */
 
