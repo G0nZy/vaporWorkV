@@ -32,7 +32,7 @@
 
 <!-- SCROLLING TEXT -->
   <div class="scroll-left fade-in">
-  <p >ETH - 0xeE7C2883f9f8D72769F37201bFc7Aa6dE2d3eE43</p>
+  <p>ETH - 0xeE7C2883f9f8D72769F37201bFc7Aa6dE2d3eE43</p>
   </div>
   <!-- SCROLLING TEXT -->
 
@@ -54,27 +54,46 @@
 
 
  <!-- SWIPER -->
- <div class="swiper mySwiper">
+<div class="swiper mySwiper">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      <a href="./aboutMeGO.html"> <img id='photoTag1' class="fade-in"src="../../img/mobileImg/hero.png" /> </a>
+      <a href="./aboutMeGO.html"> <img id='imgDepth'class="fade-in"src="../../img/mobileImg/hero.png" /> </a>
       <p id="portalTag" class="fade-in">Who</p>
     </div>
     <div class="swiper-slide">
-     <a href="../desktop/test.html"> <img class="fade-in" src="../../img/mobileImg/haloBoy.png" /> </a>
+     <a href="../desktop/test.html"> <img id='imgDepth'class="fade-in" src="../../img/mobileImg/haloBoy.png" /> </a>
       <p id="portalTag" class="fade-in">Portfolio</p>
     </div>
     <div class="swiper-slide">
-      <a href="./nftGO.html"> <img class="fade-in"src="../../img/nyanWeed.gif"> </a>
+      <a href="./nftGO.html"> <img id='imgDepth'class="fade-in"src="../../img/nyanWeed.gif"> </a>
       <p id="portalTag"class="fade-in">NFT Showcase</p>
     </div>
     <div class="swiper-slide">
-      <a href="../desktop/test.html"> <img class="fade-in"src="../../img/mobileImg/quest.png" /> </a>
+      <a href="../desktop/test.html"> <img id='imgDepth'class="fade-in"src="../../img/mobileImg/quest.png" /> </a>
       <p id="portalTag"class="fade-in">XR Experiences</p>
     </div>
   </div>
-  
 </div>
+
+ <!-- <script>
+  var swiper = new Swiper(".mySwiper", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  loop: true,
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+}); -->
+
 <!-- END SWIPER -->
 
 
@@ -119,10 +138,10 @@
 <!-- With Love From Seattle  WLFS -->
 
 
-
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <!-- COREJS -->
 <script src="../scriptsGO/mobileScripts.js"></script>
 <!-- SWIPER JS -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 </body>
 </html>
