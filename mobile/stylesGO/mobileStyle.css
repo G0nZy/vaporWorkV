@@ -470,6 +470,11 @@ opacity: 90%;
     transform: translate(-0.4rem, -0.4rem);
     opacity: 90%;
     }
+    .goBTN1:hover {
+        box-shadow: 0.4rem 0.4rem 0 rgb(169, 99, 179);
+        transform: translate(-0.4rem, -0.4rem);
+        opacity: 90%;
+        }
 
 
     
@@ -490,20 +495,13 @@ opacity: 90%;
         font-family: 'Lexend', sans-serif;
 }
 
-    
-
-
     #aboutMeHeading{
-
-
         margin-left: 10%;
         font-family: 'Lexend', sans-serif;
 
     }
 
     #underLine{
-
-        
         margin-left: 5%;
         margin-right:50%;
         font-family: 'Lexend', sans-serif;
@@ -511,8 +509,6 @@ opacity: 90%;
     }
 
     #aboutMeText{
-
-
         text-align: center;
         /* border: solid; */
         margin-left: 5%;
@@ -523,13 +519,11 @@ opacity: 90%;
     } 
 
     #aboutButtonContainer{
-
         margin-top: 20px;
 
     }
 
     #aboutButton{
-
         display: block;
         margin: auto;
         font-family: 'Lexend', sans-serif;
@@ -542,13 +536,7 @@ text-align: center;
 margin-bottom: 50px;
 }
 
-
-
-
-
 #resumeLink{
-
-
 text-align: center;
 color: blue;
 display: block;
