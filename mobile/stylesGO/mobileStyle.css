@@ -720,5 +720,47 @@ font-family: 'Lexend', sans-serif;
    
 }
 
+#holdingButton2{
 
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.goBTN2 {
+
+color:inherit;
+/* font-family:inherit;
+font-size: inherit; */
+background: rgb(85, 103, 134);
+/* background:rgb(0, 58, 105); */
+color: white;
+padding-left: 15%;
+padding-right: 15%;
+padding-top: 3%;
+padding-bottom: 3%;
+border: 2px solid black;
+margin-right: 2.6rem;
+box-shadow: 0 0 0 black;
+transition: all 0.2s;
+display: block;
+margin: auto;
+text-align: center;
+
+border-radius: 15px;
+opacity: 75%;
+text-decoration: none;
+} 
+
+.goBTN2:hover {
+box-shadow: 0.4rem 0.4rem 0 rgb(169, 99, 179);
+transform: translate(-0.4rem, -0.4rem);
+opacity: 100%;
+font-family: 'Lexend', sans-serif;
+}
 /* END OF RESUME */
