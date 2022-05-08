@@ -308,10 +308,10 @@ border-radius: 25px;
    font-family: 'Lexend', sans-serif;
 
 }
-
-.devBox{
 /* 
-border-style:double; */
+.devBox{
+
+border-style:double; 
 margin-left: 30%;
 margin-right: 30%;
 border-radius: 20px;
@@ -319,4 +319,4 @@ border-radius: 20px;
 
 
 
-}
+} */
