@@ -20,26 +20,71 @@ z-index: 1000;
 }
 /* End of Snow Effect */
 
-
 /* INDEX.HTML */
+/* SCROLLING TEXT */
+.scroll-left {
+   height: 50px;	
+   overflow: hidden;
+   position: relative;
+   background: rgb(44, 44, 44);
+   color: rgb(65, 184, 28);
+   
+  }
+  .scroll-left p {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   line-height: 50px;
+   text-align: center;
+   /* Starting position */
+   -moz-transform:translateX(50%);
+   -webkit-transform:translateX(50%);	
+   transform:translateX(50%);
+   /* Apply animation to this element */	
+   -moz-animation: scroll-left 15s linear infinite;
+   -webkit-animation: scroll-left 15s linear infinite;
+   animation: scroll-left 15s linear infinite;
+   font-family: 'Lexend', sans-serif;
+  }
+  /* Move it (define the animation) */
+  @-moz-keyframes scroll-left {
+   0%   { -moz-transform: translateX(100%); }
+   100% { -moz-transform: translateX(-100%); }
+  }
+  @-webkit-keyframes scroll-left {
+   0%   { -webkit-transform: translateX(100%); }
+   100% { -webkit-transform: translateX(-100%); }
+  }
+  @keyframes scroll-left {
+   0%   { 
+   -moz-transform: translateX(100%); /* Browser bug fix */
+   -webkit-transform: translateX(100%); /* Browser bug fix */
+   transform: translateX(100%); 		
+   }
+   100% { 
+   -moz-transform: translateX(-100%); /* Browser bug fix */
+   -webkit-transform: translateX(-100%); /* Browser bug fix */
+   transform: translateX(-100%); 
+   }
+  }
+/* END OF SCROLLING TEXT */
+
 /* START OF TOP IMAGE */
 .containerRando {
 position: relative;
 text-align: center;
 color: white;
-
 }
-
 #topImage{
 border-bottom-left-radius: 25px;
 border-bottom-right-radius: 25px;
 max-width: 25%;
 max-height: 25%; 
-
 }
 /* END OF TOP IMAGE */
-/* START OF HEADING */
 
+/* START OF HEADING */
 #mainSubHead1{
 
    text-align: center;
@@ -51,7 +96,6 @@ max-height: 25%;
    font-family: 'Lexend', sans-serif;
    color: #444444;
 }
-
 #mainSubHead2{
 
 
@@ -75,8 +119,6 @@ max-height: 25%;
     color: #444444;
 
 }
-
-
 /* END OF HEADING */
 
 
@@ -88,26 +130,51 @@ max-height: 25%;
 
 
 /* Contact Me Button */
-.button1 {
- padding:1em;
- text-align: center;
- display:inline-block;
- text-decoration: none !important;
- margin:0 auto;
- border-style: solid;
- border-top-left-radius: 35px;
- border-top-right-radius: 35px;
- border-bottom-left-radius: 35px;
- border-bottom-right-radius: 35px;
+#holdingButton{
+      
+   margin-top: 25px;
 
- -webkit-transition: all 0.2s ease-in-out;
- -moz-transition: all 0.2s ease-in-out;
- -ms-transition: all 0.2s ease-in-out;
- -o-transition: all 0.2s ease-in-out;
- transition: all 0.2s ease-in-out;
- color: steelblue;
+   display: block;
+   margin: auto;
+   text-align: center;
+   /* margin-left: 50%; */
+   font-family: 'Lexend', sans-serif;
+   color: #444444;
+
+}
+
+.btn {
+margin-top: 25px;
+color:inherit;
+/* font-family:inherit;
+font-size: inherit; */
+background: rgb(249,96,116);
+/* background:rgb(0, 58, 105); */
+color: black;
+padding: 0.3rem 3.4rem;
+border: 2px solid black;
+margin-right: 2.6rem;
+box-shadow: 0 0 0 black;
+transition: all 0.2s;
+display: block;
+margin: auto;
+text-align: center;
+font-family: 'Lexend', sans-serif;
+opacity: 75%;
+border-radius: 25px;
+color: #282828;
+} 
+
+
+.btn:hover {
+box-shadow: 0.4rem 0.4rem 0 rgb(169, 99, 179);
+transform: translate(-0.4rem, -0.4rem);
+opacity: 100%;
+
 }
 /* End of Contact Me Button */
+
+
 
 
 #developerLogContainer{
