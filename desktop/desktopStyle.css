@@ -38,25 +38,7 @@ max-height: 25%;
 
 }
 /* END OF TOP IMAGE */
-
-
-
-
-
-
-
-#subUnder{
-
-   /* width: 50%; */
-   margin-left: 25%;
-   margin-right: 25%;
-   opacity: 100%;
-   font-size: 25px;
-    font-family: fantasy;
-    font-weight: 900px;
-    color: #444444;
-
-}
+/* START OF HEADING */
 
 #mainSubHead1{
 
@@ -81,6 +63,27 @@ max-height: 25%;
    font-family: 'Lexend', sans-serif;
    color: #444444;
 }
+#subUnder{
+
+   /* width: 50%; */
+   margin-left: 25%;
+   margin-right: 25%;
+   opacity: 100%;
+   font-size: 25px;
+    font-family: fantasy;
+    font-weight: 900px;
+    color: #444444;
+
+}
+
+
+/* END OF HEADING */
+
+
+
+
+
+
 
 
 
@@ -105,145 +108,6 @@ max-height: 25%;
  color: steelblue;
 }
 /* End of Contact Me Button */
-
-.container1{
-width: 100%;
-text-align: center;
-margin-bottom: 50px;
-}
-
-
-.containerMan{
-
-
-display: grid;
-grid-template-columns: auto auto auto auto;
-
-
-}
-#picText1 {
-
-text-align: center;
-font-weight: 900px;
-   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-
-}
-#picText2 {
-
-text-align: center;
-font-weight: 900px;
-   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-}
-#picText3 {
-
-text-align: center;
-font-weight: 900px;
-   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-margin-bottom: 10px;
-}
-#picText4 {
-
-text-align: center;
-font-weight: 900px;
-   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-
-}
-
-
-
-#pictureBox1 {
-/* 
-width: 60%;
-height: 100%; */
-width: 50%;
-border-style: solid;
-border-width: 3px;
-margin-left: 35px;
-margin-bottom: 30px;
-cursor: pointer;
-border-radius: 25px;
-
-}
-
-
-#pictureBox1:hover {
-   transform: scale(1.2);
-   margin-top: 35px;
-   /* margin-bottom: 30px; */
-  } 
-
-
-#pictureBox2 {
-
-width: 60%;
-height: 100%;
-border-style: solid;
-border-width: 3px;
-margin-left: 35px;
-margin-bottom: 30px;
-cursor: pointer;
-border-radius: 25px;
-
-
-}
-
-
-#pictureBox3 {
-
- width: 60%;
- height: 100%;
- border-style: solid;
- border-width: 3px;
- margin-left: 35px;
- margin-bottom: 30px;
- cursor: pointer;
- border-radius: 25px;
-
-
-}
-
-#pictureBox4 {
-
- width: 60%;
- height: 100%;
- border-style: solid;
- border-width: 3px;
- margin-left: 35px;
- margin-bottom: 30px;
- cursor: pointer;
- border-radius: 25px;
-}
-
-  
-  
-  #pictureBox2:hover {
-  
-  
-     transform: scale(1.2);
-     margin-bottom: 50px;
-     /* margin-top: 30px; */
-     /* padding-bottom: 50px; */
-  
-  
-  } 
-
-#pictureBox3:hover {
-
-
- transform: scale(1.1);
- 
-  margin-top: 10px;
- 
-
-}
-
-#pictureBox4:hover {
-
- transform: scale(1.2);
- /* margin-top: 35px; */
- margin-bottom: 50px;
-
-}
 
 
 #developerLogContainer{
