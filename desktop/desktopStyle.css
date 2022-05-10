@@ -20,15 +20,9 @@ z-index: 1000;
 }
 /* End of Snow Effect */
 
-#subNav{
 
-   font-size: 24px;
-   font-family: 'Lexend', sans-serif;
-
-   }
-
-
-   
+/* INDEX.HTML */
+/* START OF TOP IMAGE */
 .containerRando {
 position: relative;
 text-align: center;
@@ -37,14 +31,13 @@ color: white;
 }
 
 #topImage{
-
-
 border-bottom-left-radius: 25px;
 border-bottom-right-radius: 25px;
 max-width: 25%;
 max-height: 25%; 
 
 }
+/* END OF TOP IMAGE */
 
 
 
