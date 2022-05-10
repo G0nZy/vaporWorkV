@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
+    <body onload="startTime()"></body>
     
 </head>
 <body>
@@ -23,17 +24,6 @@
     <nav class="navbar navbar-expand-xxl navbar-light navStyle"  style="background-color: rgb(0, 58, 105);"> <!-- orignal color was steelblue-->
         <div class="container-fluid" >
           <a class="navbar-brand" href="./index.html" style="color: white;" id="subNav text12"></a>
-          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> -->
-          <!-- <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="color: white;">
-            <div class="navbar-nav " id="subNav" >
-              <a class="nav-link" href="https://github.com/G0nZy" style="color: white;" id="subNav1">Github</a>
-              <a class="nav-link" href="https://twitter.com/therealfrankir"  style="color: white;" id="subNav2">Twitter</a>
-              <a class="nav-link" href="https://foundation.app/@G0nZy"  style="color: white;" id="subNav3">Foundation</a> -->
-              <!-- <a class="nav-link" href="https://www.linkedin.com/in/frank-cabrera-iii/"  style="color: white;" id="subNav4">LinkedIn</a> -->
-              <!-- </div>
-          </div> -->
         </div>
       </nav>
 <!-- END OF NAVBAR -->
@@ -99,19 +89,6 @@
   
 
 <!-- END OF SCROLLING ANNOUNCEMENTS -->
-
-
-
-
-<!-- 
-<div id="marquee">
-<p id="scroll-left">hello</p>
-</div> -->
-<!-- <style>
-  
-
-</style> -->
-
 
 
 
@@ -444,9 +421,6 @@ opacity: 55%;
 <!-- TEXT ADVENTURE ENDS  -->
 
 
-
-
-
 <!-- DEVELOPER LOGS -->
                 <div id="developerLogContainer">
                   <h1 id="developerLogTitle">Notes & Thoughts</h1>
@@ -468,21 +442,7 @@ opacity: 55%;
 <!-- END OF DEVELOPER LOGS -->
 
 
-
-<!-- ONCLICK FOR DEV LOG THIS SUCKS AND IS NOT GOOD -->
-<!-- 
-<script>
-  document.getElementById("developerTextTitle").onclick = function(){myFunction9()};
-  function myFunction9(){
-      window.location.href = "./mobile/devLogGO.html";
-  };
-  </script> -->
-
-<!-- END OF ONCLICK FOR DEV LOG THIS SUCKS AND IS NOT GOOD -->
-
-
 <!-- U+1F310 Globe U+1F30C Galaxy U+1F300 Cyclone-->
-
 
 
 <!-- AUTOGRAPH BOOK -->
@@ -511,11 +471,38 @@ opacity: 55%;
         <p id="spacer">blank</p>
         <p id="footTagLine"><span>🌀</span>Inspired by the Humans & Culture of </p>
         <p id="footTagLine">Seattle, Washington<span>🌀</span></p>
+        <div id="txt"> Seattle Time</div>
+
+
         <p id="spacer">blank</p>
 
 <!-- END OF SPACERS AND FOOTER -->
+<style>
+  #txt{
+    text-align: center; 
+     font-size: 11px;
+     font-weight: 700;
+     font-family: 'Lexend', sans-serif;
+  }
+</style>
 
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
 
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
 <style>
   #footTagLine{
 
