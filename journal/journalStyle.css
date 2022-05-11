@@ -1,12 +1,12 @@
 /* ENTRIES MAIN */
 #aboutMeFieldBox {
     margin-top: 3%;
-    border: solid;
+    /* border: solid; */
     text-align: left;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: linen;
-    border: .5px solid rgb(110, 110, 110);
+    /* background-color: linen; */
+    /* border: .5px solid rgb(110, 110, 110); */
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-top-left-radius: 2px;
@@ -129,14 +129,10 @@ margin-bottom: 25px;
     color: #373737;
     margin-top: 4%;
     font-family: 'Lexend', sans-serif;
-
-
 }
 li{
 list-style:none;
 }
-
-
 /* END OF JOURNAL */
 
 /* CALL TO ACTION */
@@ -150,7 +146,6 @@ list-style:none;
     /* margin-left: 50%; */
     font-family: 'Lexend', sans-serif;
     color: #444444;
- 
  }
  
  .btn {
@@ -174,12 +169,10 @@ list-style:none;
  border-radius: 25px;
  color: #e6e6e6;
  } 
- 
  .btn:hover {
  box-shadow: 0.4rem 0.4rem 0 rgb(169, 99, 179);
  transform: translate(-0.4rem, -0.4rem);
  opacity: 100%;
- 
  }
 /* END OF CALL ACTION */
 
