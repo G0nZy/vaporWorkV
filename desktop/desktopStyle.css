@@ -532,8 +532,133 @@ opacity: 100%;
 /* END OF BUTTON */
 
 
-
-
-
-
 /* END OF ABOUTME */
+
+
+/* LINKTREE */
+
+
+#holdingButtonLink{
+   margin-top: 25px;
+   display: block;
+   margin: auto;
+   text-align: center;
+   font-family: 'Lexend', sans-serif;
+   }
+
+
+.tLink{
+
+   color:inherit;
+     background: linen;
+     padding: 0.3rem 3.4rem;
+     border: 2px solid black;
+     margin-right: 2.6rem;
+     box-shadow: 0 0 0 black;
+     transition: all 0.2s;
+     display: block;
+     margin: auto;
+     text-align: center;
+     margin-left: 20%;
+     margin-right: 20%;
+     margin-top: 3%;
+     padding-top: 2%;
+     padding-bottom: 2%;
+     font-size: 25px;
+     border-radius: 15px;
+     opacity: 65%;
+     font-family: 'Lexend', sans-serif;
+     text-decoration: none;
+   }
+    
+   
+#tLink1:hover {
+   transform: scale(1.2);
+   margin-bottom: 30px;
+   cursor: pointer;
+   background-color: #211F1F;
+   color: white;
+   opacity: 100%;
+  text-decoration: underline;
+   box-shadow: 0.7rem 0.7rem 0 black;
+    transform: translate(-0.7rem, -0.7rem);
+  
+  } 
+  #tLink1:active {
+    box-shadow: 0 0 0 black;
+    transform: translate(0, 0);
+  }
+  
+  #tLink2:hover {
+   transform: scale(1.2);
+   margin-bottom: 30px;
+   cursor: pointer;
+   background-color: #1DA1F2;
+   color: white;
+   opacity: 100%;
+   text-decoration: underline;
+   box-shadow: 0.7rem 0.7rem 0 black;
+    transform: translate(-0.7rem, -0.7rem);
+  } 
+  #tLink2:active {
+    box-shadow: 0 0 0 black;
+    transform: translate(0, 0);
+  }
+  
+  #tLink3:hover {
+   transform: scale(1.2);
+   margin-bottom: 30px;
+   cursor: pointer;
+   background-color: #ff5656;
+   color: white;
+   opacity: 100%;
+   text-decoration: underline;
+   box-shadow: 0.7rem 0.7rem 0 black;
+    transform: translate(-0.7rem, -0.7rem);
+  }
+  #tLink3:active {
+    box-shadow: 0 0 0 black;
+    transform: translate(0, 0);
+  }
+  
+  #tLink4:hover {
+   transform: scale(1.2);
+   margin-bottom: 30px;
+   cursor: pointer;
+   background-color: #404EED;
+   color: white;
+   opacity: 100%;
+   text-decoration: underline;
+   box-shadow: 0.7rem 0.7rem 0 black;
+    transform: translate(-0.7rem, -0.7rem);
+  } 
+  #tLink4:active {
+    box-shadow: 0 0 0 black;
+    transform: translate(0, 0);
+  }
+  
+  #tLink5{
+    margin-bottom: 50px;
+  }
+  #tLink5:hover {
+   transform: scale(1.2);
+   margin-bottom: 50px;
+   cursor: pointer;
+   /* background-color: #cfc9c9; */
+   background-color: rgb(80,80,97);
+   color: white;
+   opacity: 100%;
+   text-decoration: underline;
+   box-shadow: 0.7rem 0.7rem 0 black;
+    transform: translate(-0.7rem, -0.7rem);
+  } 
+  #tLink5:active {
+    box-shadow: 0 0 0 black;
+    transform: translate(0, 0);
+  }
+  /* END */
+  
+  
+  
+
+/* END */

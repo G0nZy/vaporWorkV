@@ -10,11 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
- 
 </head>
 <body>
     
-  
     <!-- NAVBAR -->
    <nav class="navbar navbar-expand-xxl navbar-light"  style="background-color: rgb(0, 58, 105);">
     <div class="container-fluid">
@@ -23,12 +21,9 @@
   </nav>
   <!-- END OF NAVBAR -->
 
-
-
       <!-- HEADER IMAGE -->
       <img id='aboutMainImg'src="../img/hero.png">
       <!-- END OF HEADER IMAGE -->
-
 
     <!-- ABOUT ME FIELD BOX -->
     <div id="aboutMeFieldBox">
@@ -39,64 +34,27 @@
             Currently I am helping develop new mixed reality environments that aim to impact the niche space that is Virtual Reality.
             I believe that these technologies should be the focus of any company looking to have a lasting impact on the future. 
             <a id="resumeLink" href="./resumeDesk.html">résumé</a>
-            
         </p>
     </div>
+<!-- END OF FIELD BOX -->
 
-
+<!-- BUTTON -->
     <div id="holdingButtonAbout">
-        
           <button class="btnAbout" onclick="window.location.href='./linkTree.html';">Contact Me</button>
-         
       </div>
+<!-- END OF BUTTON -->
 
-
-
-
+      <!-- BOOTSTRAPJS -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-      <script src="./desktop.js"></script>
-     
+      <!-- END -->
+
+<!-- REDIRECT -->
+      <script>
+        if (screen.width <= 767) {
+        document.location = "../mobile/coreGO/aboutMeGO.html";
+      }
+      </script>
+      <!-- END -->
 </body>
 </html>
 
-
-
-<style>
-
-
-
-   
-
-
-    
-
-
-
-    
-
-    
-    #aboutButtonContainer{
-
-        margin-top: 20px;
-        font-family: 'Lexend', sans-serif;
-
-    }
-
-    #aboutButton{
-
-        display: block;
-        margin: auto;
-        font-family: 'Lexend', sans-serif;
-    }
-
-
-</style>
-
-
-
-<script>
-  
-    if (screen.width <= 767) {
-    document.location = "../mobile/aboutMeGO.html";
-  }
-  </script>
