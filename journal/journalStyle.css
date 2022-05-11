@@ -1,0 +1,99 @@
+#aboutMeFieldBox {
+
+    margin-top: 3%;
+    border: solid;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: linen;
+    border: .5px solid rgb(110, 110, 110);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+#aboutMeFieldBox1 {
+
+margin-top: 3%;
+border: solid;
+text-align: left;
+margin-left: 5%;
+margin-right: 5%;
+background-color: linen;
+border: .5px solid rgb(110, 110, 110);
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+font-family: 'Lexend', sans-serif;
+}
+
+
+
+
+#aboutMeHeading{
+
+
+    margin-left: 10%;
+    font-family: 'Lexend', sans-serif;
+
+}
+
+ #underLine{
+
+    
+    margin-left: 10%;
+    margin-right:10%;
+    font-family: 'Lexend', sans-serif;
+
+} 
+
+#aboutMeText{
+
+
+    text-align: center;
+    /* border: solid; */
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Lexend', sans-serif;
+
+} 
+
+
+
+
+li{
+list-style:none;
+}
+
+
+#topicLink1{
+
+color: rgb(0, 58, 105); 
+/* color: rgb(155, 155, 155); */
+margin-top: 15px;
+font-size: 18px;
+text-decoration: underline;
+cursor: pointer;
+font-family: 'Lexend', sans-serif;
+
+
+
+}
+
+
+body {
+
+
+background-color: rgb(218, 224, 231); 
+
+
+}
+
+#dateLog {
+font-size: 13px;
+font-family: 'Lexend', sans-serif;
+}
