@@ -420,6 +420,118 @@ opacity: 100%;
 
 /* ABOUTME.HTML */
 
+/* HEADER IMAGE */
+#aboutMainImg{
+
+   display: block;
+   margin: auto;
+   border-bottom-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   max-width: 25%;
+   max-height: 25%; 
+   font-family: 'Lexend', sans-serif;
+
+}
+
+
+
+/* END OF HEADER IMAGE */
+
+/* FIELD BOX */
+#aboutMeFieldBox {
+
+   margin-top: 3%;
+   border: solid;
+   text-align: left;
+   margin-left: 25%;
+   margin-right: 25%;
+   background-color: linen;
+   border: .5px solid rgb(110, 110, 110);
+   border-bottom-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   border-top-left-radius: 2px;
+   border-top-right-radius: 2px;
+   margin-bottom: 3%;
+   font-family: 'Lexend', sans-serif;
+}
+#aboutMeHeading{
+
+   color: #292929;
+   margin-left: 10%;
+   font-family: 'Lexend', sans-serif;
+
+}
+#underLine{
+
+        
+   margin-left: 5%;
+   margin-right:50%;
+   font-family: 'Lexend', sans-serif;
+
+}
+
+#aboutMeText{
+
+   color: #292929;
+   text-align: center;
+   /* border: solid; */
+   margin-left: 15%;
+   margin-right: 15%;
+   font-family: 'Lexend', sans-serif;
+
+} 
+
+#resumeLink{
+
+
+   text-align: center;
+   color: blue;
+   display: block;
+   margin: auto;
+   margin-top: 15px;
+   cursor: pointer;
+   font-family: 'Lexend', sans-serif;
+
+}
+/* END OF FIELD BOX */
+
+/* BUTTON */
+
+#holdingButtonAbout{
+
+   margin-top: 25px;
+
+   display: block;
+   margin: auto;
+   text-align: center;
+   /* margin-left: 50%; */
+   font-family: 'Lexend', sans-serif;
+}
+.btnAbout {
+   margin-top: 25px;
+ color:inherit;
+   /* font-family:inherit;
+ font-size: inherit; */
+ background: linen;
+ padding: 0.3rem 3.4rem;
+ border: 2px solid rgb(39, 39, 39);
+ margin-right: 2.6rem;
+ box-shadow: 0 0 0 rgb(15, 15, 15);
+ transition: all 0.2s;
+ display: block;
+ margin: auto;
+ text-align: center;
+ font-family: 'Lexend', sans-serif;
+ border-radius: 20px;
+ color: #444444;
+} 
+.btnAbout:hover {
+   box-shadow: 0.4rem 0.4rem 0 rgb(39, 39, 39);
+   transform: translate(-0.4rem, -0.4rem);
+ }
+/* END OF BUTTON */
+
+
 
 
 
