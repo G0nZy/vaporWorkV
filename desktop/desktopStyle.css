@@ -661,4 +661,58 @@ opacity: 100%;
   
   
 
-/* END */
+/* END LINKTREE */
+
+
+/* RESUMEHTML */
+
+
+#resumePicStyle{
+
+   width: 45%;
+   display: block;
+   margin: auto;
+   margin-top: 25px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+}
+
+
+/* BUTTON */
+
+#holdingButtonRes{
+
+   margin-top: 25px;
+
+   display: block;
+   margin: auto;
+   text-align: center;
+   /* margin-left: 50%; */
+   font-family: 'Lexend', sans-serif;
+}
+.btnRes {
+   margin-top: 25px;
+ color:inherit;
+   /* font-family:inherit;
+ font-size: inherit; */
+ background: linen;
+ padding: 0.3rem 3.4rem;
+ border: 2px solid rgb(39, 39, 39);
+ margin-right: 2.6rem;
+ box-shadow: 0 0 0 rgb(15, 15, 15);
+ transition: all 0.2s;
+ display: block;
+ margin: auto;
+ text-align: center;
+ font-family: 'Lexend', sans-serif;
+ border-radius: 20px;
+ color: #444444;
+ margin-bottom: 50px;
+} 
+.btnRes:hover {
+   box-shadow: 0.4rem 0.4rem 0 rgb(39, 39, 39);
+   transform: translate(-0.4rem, -0.4rem);
+ }
+/* END OF BUTTON */
+
+/* END RESUMEHTML */
