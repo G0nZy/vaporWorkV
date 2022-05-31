@@ -104,6 +104,20 @@ font-family: 'Lexend', sans-serif;
     color: #373737;
     font-family: 'Lexend', sans-serif;
 } 
+.textImg{
+
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 2%;
+
+}
+.textImgT{
+
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
 
 #journalHeadBox1 {
 
