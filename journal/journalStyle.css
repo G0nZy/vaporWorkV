@@ -110,7 +110,7 @@ font-family: 'Lexend', sans-serif;
     margin: auto;
     border-radius: 15px;
     margin-top: 2%;
-    width: 80%;
+    max-width: 80%;
 
 }
 .textImgT{
